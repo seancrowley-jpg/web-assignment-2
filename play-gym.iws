@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="79436a91-beba-4dea-8ad0-a6b45d42881c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/play-gym.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/play-gym.ipr" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/play-gym.iws" beforeDir="false" afterPath="$PROJECT_DIR$/play-gym.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/dependencies.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dependencies.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +61,7 @@
       <workItem from="1590699393442" duration="2000" />
       <workItem from="1591099445610" duration="21598000" />
       <workItem from="1591371261653" duration="14714000" />
-      <workItem from="1591449709219" duration="1790000" />
+      <workItem from="1591449709219" duration="2106000" />
     </task>
     <servers />
   </component>
