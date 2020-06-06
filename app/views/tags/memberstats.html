@@ -1,0 +1,41 @@
+<section class="ui raised segment">
+    <div class="ui four column very relaxed grid">
+        <div class="column">
+            <h2 class="ui header">
+                <i class="big user icon"></i>
+                <div class="content">
+                ${_member.name}
+                    <div class="sub header">Height: ${_member.height} m</div>
+                </div>
+            </h2>
+        </div>
+        <div class="column">
+            <h2 class="ui header">
+                Ideal Weight:
+                <div class="content">
+                #{if _member.ideal}
+                    <i class=" green check icon"></i>
+                #{/if}
+                #{else}<i class="red times icon"></i> #{/else}
+                </div>
+            </h2>
+        </div>
+        <div class="column">
+            <h2 class="ui header">
+                <i class="big heartbeat icon"></i>
+                <div class="content">
+                    BMI: ${java.lang.Math.round(_member.BMI)}
+                </div>
+            </h2>
+        </div>
+        <div class="column">
+            <h2 class="ui header">
+                <i class="big user md icon"></i>
+                <div class="content">
+                    Category:
+                    <div class="sub header">${controllers.Dashboard.determineBMICategory(_member.BMI)}</div>
+                </div>
+            </h2>
+        </div>
+    </div>
+</section>

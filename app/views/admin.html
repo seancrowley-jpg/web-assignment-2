@@ -1,0 +1,24 @@
+#{extends 'main.html' /}
+#{set title:'Admin' /}
+
+<section class="ui raised segment">
+  <header class="ui header">
+    Assessments in the Database:
+  </header>
+  <table class="ui fixed table">
+    <thead>
+    <tr>
+      <th>Id</th>
+    </tr>
+    </thead>
+    <tbody>
+    <div class="ui bulleted list">
+      #{list items:assessments, as:'assessment'}
+        <tr>
+          <td> ${assessment.id} </td>
+        </tr>
+      #{/list}
+    </div>
+    </tbody>
+  </table>
+</section>

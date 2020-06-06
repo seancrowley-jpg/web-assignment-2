@@ -1,0 +1,12 @@
+#{extends 'main.html' /}
+#{set title:'Trainer' /}
+
+#{trainermenu id:"dashboard"/}
+<section class="ui raised segment">
+    <h2 class="ui header">
+        Trainer Menu
+        <div class="sub header">View / Manage Gym Members</div>
+    </h2>
+#{listmembers trainer:trainer /}
+</section>
+

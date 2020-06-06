@@ -1,0 +1,50 @@
+<table class="ui fixed table">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Weight(kg)</th>
+        <th>Chest(cm)</th>
+        <th>Thigh(cm)</th>
+        <th>Upper Arm(cm)</th>
+        <th>Waist(cm)</th>
+        <th>Hips(cm)</th>
+        <th>Comment</th>
+        <th>Delete Assessment</th>
+      </tr>
+    </thead>
+    <tbody>
+    <div class="ui bulleted list">
+      #{list items:_member.assessments, as:'assessment'}
+       <tr>
+           <td>
+             ${assessment.time}
+           </td>
+           <td>
+             ${assessment.weight}
+           </td>
+           <td>
+             ${assessment.chest}
+           </td>
+           <td>
+             ${assessment.thigh}
+           </td>
+           <td>
+             ${assessment.upperarm}
+           </td>
+           <td>
+             ${assessment.waist}
+           </td>
+           <td>
+             ${assessment.hips}
+           </td>
+           <td>
+             ${assessment.comment}
+           </td>
+           <td>
+               <a href="/dashboard/${_member.id}/deleteassessment/${assessment.id}" class="ui vertical animated button"><div class="hidden content">Delete</div><div class="visible content"><i class="alternate trash icon"></i></div></a>
+           </td>
+       </tr>
+      #{/list}
+    </div>
+    </tbody>
+</table>

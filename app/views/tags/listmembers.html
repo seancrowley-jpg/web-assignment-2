@@ -1,0 +1,20 @@
+#{list items:_trainer.members, as:'member'}
+<div class="ui middle aligned divided list">
+    <div class="item">
+      <div class="content">
+         <div class="ui header">${member.name} ${member.height} m</div>
+          <div class="ui blue large label">
+              Total Assessments:
+              <div class="detail">${member.assessments.size()}</div>
+          </div>
+          <a href="/trainerdashboard/${member.id}" class="ui icon button">
+              <i class="icon folder open"></i>
+          </a>
+          <a href="/trainer/deletemember/${member.id}" class="ui red animated fade button">
+              <div class="visible content"><i class="icon trash"></i></div>
+              <div class="hidden content">Delete</div>
+          </a>
+      </div>
+    </div>
+</div>
+#{/list}

@@ -1,0 +1,67 @@
+Assessment(a1):
+  time: 2020-05-24T17:56:12
+  weight: 123.3
+  chest: 45.0
+  thigh: 12.5
+  upperarm: 23.3
+  waist: 32.0
+  hips: 38.0
+
+Assessment(a2):
+  time: 2020-04-16T19:22:09
+  weight: 123.3
+  chest: 45.0
+  thigh: 12.0
+  upperarm: 23.3
+  waist: 31.0
+  hips: 36.0
+
+Assessment(a3):
+  time: 2020-05-14T14:34:39
+  weight: 70.0
+  chest: 45.0
+  thigh: 10.0
+  upperarm: 19.0
+  waist: 30.0
+  hips: 28.0
+
+Member(m1):
+  name: Homer
+  gender: M
+  email: homer@simpson.com
+  password: secret
+  address: evergreen terrace
+  height: 2
+  startingWeight: 123.3
+  assessments:
+    - a1
+    - a2
+
+Member(m2):
+  name: Marge
+  gender: F
+  email: marge@simpson.com
+  password: secret
+  address: evergreen terrace
+  height: 1.5
+  startingWeight: 70.0
+  assessments:
+    - a3
+
+Member(m3):
+  name: Bill
+  gender: M
+  email: bill@bill.com
+  password: secret
+  address: town3
+  height: 2.2
+  startingWeight: 100.0
+  assessments:
+
+
+Trainer(t1):
+  name: Jim
+  gender: M
+  email: jim@jim.com
+  password: secret
+  address: town2
